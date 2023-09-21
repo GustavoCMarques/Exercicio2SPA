@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { ListaProdutos } from "../components/ListaProdutos";
 import { useNavigate } from "react-router-dom";
 
@@ -58,7 +58,6 @@ export default function AdicionarProdutos() {
                 id="idNome"
                 value={novoProduto.nome}
                 onChange={onChange}
-                required
               />
             </div>
             <div>
@@ -69,7 +68,7 @@ export default function AdicionarProdutos() {
                 id="idDesc"
                 value={novoProduto.desc}
                 onChange={onChange}
-                required
+                
               />
             </div>
             <div>
@@ -80,7 +79,7 @@ export default function AdicionarProdutos() {
                 id="idValor"
                 value={novoProduto.valor}
                 onChange={onChange}
-                required
+                
               />
             </div>
             <div>
