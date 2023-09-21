@@ -28,11 +28,14 @@
 .buttonStyle {
     background-color: #007bff;
     color: #fff;
-    padding: 10px 20px;
-    margin-top: 0.5rem;
+    margin-left: 0.5rem;
+    margin-top: 0.2rem;
+    margin-bottom: 0.2rem;
     border: none;
     cursor: pointer;
     border-radius: 4px;
+    width: 12em;
+    height: 2em;
 }
 
 .buttonStyle:hover {

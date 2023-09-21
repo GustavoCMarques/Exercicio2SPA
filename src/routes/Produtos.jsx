@@ -38,9 +38,7 @@ export default function Produtos() {
       <div>
         <button className={style.buttonStyle} onClick={()=> setCounter2(counter2 + 1)}>COUNTER2 - {counter2}</button>
       </div>
-      <div>
-        <button className={style.buttonStyle} > <Link to={`/adicionar/produtos`}>Adicionar Produtos</Link></button>
-      </div>
+      
       <table className={style.tblEstilo}>
         <thead>
         <tr>
@@ -48,7 +46,8 @@ export default function Produtos() {
           <th>NOME</th>
           <th>DESCRIÇÃO</th>
           <th>PREÇO</th>
-          <th>EDITAR / EXCLUIR</th>       
+          <th>EDITAR </th>
+          <th>EXCLUIR</th>       
         </tr>
         </thead>
         <tbody>
@@ -59,14 +58,17 @@ export default function Produtos() {
                 <td>{item.nome}</td>
                 <td>{item.desc}</td>
                 <td>{item.valor}</td>
-                <td> <Link to={`/editar/produtos/${item.id}`}><Editar/></Link> | <Link to={`/excluir/produtos/${item.id}`}><Excluir/></Link> </td>
+                <td> <Link to={`/editar/produtos/${item.id}`}><Editar/></Link>  </td>
+                <td><Link to={`/excluir/produtos/${item.id}`}><Excluir/></Link></td>
             </tr>
           ))
         }
 </tbody>
 <tfoot>
   <tr>
-    <td colSpan={4}>PRODUTOS LINDOS</td>
+    <td colSpan={4}><div>
+        <button className={style.buttonStyle} > <Link to={`/adicionar/produtos`}style={{ textDecoration: 'none' }}>Adicionar Produtos</Link></button>
+      </div></td>
   </tr>
 </tfoot>
       </table>
