@@ -42,7 +42,7 @@ export default function EditarProdutos() {
 
         navigate("/produtos");
     }
-
+//  formulário de edição de produtos 
   return (
     <div>
         <h1>EDITAR - PRODUTOS</h1>

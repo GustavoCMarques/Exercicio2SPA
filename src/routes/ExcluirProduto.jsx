@@ -20,9 +20,10 @@ export default function ExcluirProduto() {
     valor: produtoRecuperadoDaListaById[0].valor,
   });
 
+  //Função para lidar com a exclusão do produto
   const handleExclude = (event) => {
     event.preventDefault();
-
+//Encontra o índice do produto a ser excluído na lista de produtos
     let indice;
     ListaProdutos.forEach((item, index) => {
       if (item.id == produto.id) {
