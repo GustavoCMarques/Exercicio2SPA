@@ -6,7 +6,6 @@ export default function Cabecalho() {
     <>
       <header>
         <h1>Vite + React / Coded By - PF0670</h1>
-        <h2>ISOLANTE - LINDO</h2>
         <ul>
           <li>
             <Link to="/">HOME - <H/></Link>
@@ -14,7 +13,9 @@ export default function Cabecalho() {
           <li>
             <Link to="/produtos">PRODUTOS</Link>
           </li>
-
+          <li>
+            <Link to="/produtos">CADATRAR PRODUTO</Link>
+          </li>
         </ul>
       </header>
     </>
