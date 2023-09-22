@@ -1,6 +1,8 @@
 import { Link } from "react-router-dom";
 import {AiFillHome as H} from "react-icons/ai";
 
+//Este é o cabeçalho da sua aplicação
+
 export default function Cabecalho() {
   return (
     <>
