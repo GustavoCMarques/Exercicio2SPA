@@ -21,3 +21,5 @@ Currently, two official plugins are available:
 - 10 - Recuperando a lista de produtos do arquivo ListaProdutos.jsx e adicionando no estado do componente Produtos.
 - 11 - Em produtos vamos criar uma tabela para exibir os produtos e adicionar um link para editar o produto.
 - 12 - Adicionando CSS inline nos elementos da tabela com style objects.
+
+- Link para o Deploy na Netlify: https://main--inspiring-dolphin-a31949.netlify.app
